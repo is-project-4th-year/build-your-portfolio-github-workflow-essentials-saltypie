@@ -13,12 +13,15 @@
 
 ## 3. Learnings from the Git Crash Program
 
-List at least **four key concepts or skills** you learned during the Git crash course. For each one, write a brief explanation of how it helped you manage your portfolio project more effectively.
 
-Example format:
+- **Resolving Merge Conflicts**: Helped me resolve challenges that I faced when modifying the same lines in the index.html file in different branches.
 
-- **Branching**: Helped me separate features and prevent conflicts when working on different sections of the site.
-- _(Continue with other concepts…)_
+- **Branching**: Helped me make changes to different versions of the portfolio project without changing the main branch which would affect the live github pages site.
+
+- **Issues & Projects**: Helped me with eparation of concerns using issues based on features, fixes or tasks to be performed. Helped me manage my workflow by using the project board. Helped me track what needs to be solved and what has already been solved.
+
+- **Commit Management**: Helped me name the commit messages using conventions that made it easy to track and record the types of changes and reasons for changes. Helped me track past changes.
+
 
 ## 4. Screenshots of Key GitHub Features
 
