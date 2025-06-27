@@ -6,21 +6,106 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML 5 Boilerplate</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+        overflow-y: scroll;
+        font-family: sans-serif;
+      }
+
+      section {
+        height: 100vh;
+        scroll-snap-align: start;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+
+      /* Intro Section */
+      #intro {
+        background-color: #f5f5dc;
+        color: #000;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      #intro h1 {
+        color: brown;
+        font-size: 3em;
+        margin-bottom: 10px;
+      }
+
+      #intro img {
+        max-height: 60%;
+        max-width: 40%;
+        object-fit: cover;
+      }
+
+      #intro .text {
+        max-width: 40%;
+      }
+
+      /* About Section */
+      #about {
+        background-color: #ffd79f;
+        color: black;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #about h2 {
+        margin-bottom: 5px;
+      }
+
+      #about .lists {
+      display: flex;
+      justify-content: center; /* centers the combined columns */
+      gap: 40px;
+      width: auto; /* remove fixed width */
+      }
+
+      #about .column {
+        flex: 1;
+      }
+
+      #about ul {
+        list-style-type: disc;
+        padding-left: 20px;
+      }
+
+      /* Contact Section */
+      #contact {
+        background-color: #000;
+        color: #fff;
+      }
+
+      .image{
+          border-radius: 50%;
+      }
+    </style>
   </head>
   <body>
     <script src="index.js"></script>
-    <section>
-      <img src="./comp.gif">
-      <div>
+    <section id="intro">
+      <img class="image" src="./comp.gif">
+      <div class="text">
         <h1>Michael Rangi</h1>
         <p>I am a 4th year Computer Science Student who is curious about developments in Machine Learning and Artificial Intelligence technology. I enjoy learning and problem solving.</p>
       </div>
     </section>
     
-    <section>
+    <section id="about">
       <h1>About Me</h1>
-      <div>
-        <div>
+      <div class="lists">
+        <div class="column">
           <h2>Skills</h2>
           <ul>
             <li>HTML & CSS</li>
@@ -29,7 +114,7 @@
             <li>Database Management(SQL and Postgres)</li>
           </ul>
         </div>
-        <div>
+        <div class="column">
           <h2>Experience & Study</h2>
           <ul>
             <li>Undergraduate Student - Strathmore University (2022-current)</li>
@@ -39,7 +124,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id="contact">
       <h1>Contact</h1>
       <p>Email: louisrangi1@gmail.com</p>
     </section>
