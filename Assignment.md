@@ -29,12 +29,11 @@ Included below are screenshots that demonstrate how I used GitHub to manage the 
 
 
 ### A. Milestones and Issues
-
-- ![Milestone 1](./images/mile1.PNG)
+- ![Milestone 1](./images/mile1.png)
 - A screenshot of the first milestone.
-- ![Issues for milestone 1](./images/mile3.PNG)
+- ![Issues-for-milestone 1](./images/mile3.png)
 - The issues under milestone 1 "Create Portfolio Page".
-- ![Milestone 2 and Issues](./images/mile2.PNG)
+- ![Milestone-2-and-Issues](./images/mile2.png)
 - Milestone 2.
 ### B. Project Board
 - ![Project-Board](./images/pb.png)
@@ -44,16 +43,14 @@ Included below are screenshots that demonstrate how I used GitHub to manage the 
 - ![Branches](./images/branches.png)
 - The branch list for the repository showing the default branch and active branches.
 
-
 ### D. Pull Requests
 - ![Pull-Requests](./images/pr1.png)
-- ![Pull-Requests](./images/pr2.png)
+- ![Pull-Requests2](./images/pr2.png)
 
 - Screenshots of a pull request that has been merged and linked to a related issue (issue #16).
 
 ### E. Merge Conflict Resolution
 - ![Merge-Conflict](./images/mcr1.png)
-- ![Merge-Conflict](./images/mcr2.png)
-- ![Merge-Conflict](./images/mcr3.png)
-
+- ![Merge-Conflict2](./images/mcr2.png)
+- ![Merge-Conflict3](./images/mcr3.png)
 - Screenshots of a merge conflict, resolution using the merge editor on visual studio code and the final resolved merge. 
