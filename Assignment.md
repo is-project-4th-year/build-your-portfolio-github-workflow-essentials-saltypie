@@ -2,14 +2,14 @@
 
 ## 1. Student Details
 
-- **Full Name**:
-- **GitHub Username**:
-- **Email**:
+- **Full Name**: Louis Michael Rangi Gacho
+- **GitHub Username**: saltypie
+- **Email**: louisrangi1@gmail.com
 
 ## 2. Deployed Portfolio Link
 
 - **GitHub Pages URL**:  
-  _(Provide the live link to your deployed portfolio website)_
+  _(https://is-project-4th-year.github.io/build-your-portfolio-github-workflow-essentials-saltypie/)_
 
 ## 3. Learnings from the Git Crash Program
 
